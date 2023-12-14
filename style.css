@@ -4,12 +4,16 @@
     
 
 body {
-    font-family: Helvetica;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     background-color: antiquewhite;
     max-width: 840px;
     margin: 0 auto;
+
   }  
+  h1, h2, h3, h4 {
+    font-family: 'Roboto Mono', monospace;
+  }
   
   .intro{
     text-align: center;
@@ -112,5 +116,20 @@ body {
   }
   .contacts:hover{
     box-shadow: 0 8px 12px 0 rgba(165, 21, 21, 0.16);
+  }
+  form input, textarea {
+    padding: 5px;
+    border-radius: 5px;
+    width: 240px;
+  }
+  form {
+    width: 250px;
+    margin: 0 auto;
+  }
+  form input[type="submit"]{
+    width: 250px;
+  }
+  .submitbtwr{
+    margin: 20px 0;;
   }
 /*}*/
