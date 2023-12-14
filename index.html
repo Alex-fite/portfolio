@@ -2,29 +2,29 @@
 <html>
     <head>
         <title>My Portfolio</title>
+              
         <link rel="stylesheet" href="style.css">
     </head>
 
 
     <body>
-
-
-        <div>
+        
+    
+        <div class="container">
+        <div class="intro">
             <!--img src="https://placehold.co/150" /-->
-            <img src="img/profile.jpg" width="150" height="150" alt="profile image">
+            <img class="propict" src="img/profile.jpg" width="150" height="150" alt="profile image">
             <h1>FirstName LastName</h1>
             <h3>Web Developer At XYZCompany</h3>
             <p> <i> {{ Pause and ponder in the silence }} </i> </p>
 
         </div>
         <div>
-            <P>
-                <a href="contact.html">contact</a>
-            </P>
+            
         </div>
 
-        <div>            
-            <div>
+        <div class="about-grid">            
+            <div class="iam">
                 <h3>I am</h3>
                 <ul>
                 <li>An engineer</li>
@@ -33,6 +33,9 @@
                 <li>A football fun</li>
                 </ul>
             </div>
+
+            
+        
             <div>
                 <h3>I like to</h3>
                 <ul>
@@ -42,51 +45,61 @@
                 </ul>
             </div>
         </div>
+        
 
         <div>
-            <h3>My projects</h3>
-            <table>
-                <tr>
-                    <td>
-                        <img src="img/hac1.jpg" width="300" height="300" alt="hacker image" />
-                    </td>
-                    <td>
-                        <img src="img/hack2.jpg" width="300" height="300" alt="hacker image" />
-                    </td>
-                    
-                    
-                </tr>
-                <tr>
-                    <td>
-                        <img src="img/hack3.jpg" width="300" height="300" alt="hacker image" /> />
-                    </td>
-                    <td>
-                        <img src="img/hack4.jpg" width="300" height="300" alt="hacker image" /> />
-                    </td>
-                    
-                    
-                </tr>
-                
-            </table>
+            <h3 class="projectsheading">My projects</h3>
+           
+            <div class="projectgrid">
+
+                        <div class="projectimawraper">
+                            <h4>project 1</h4>
+                            <img class="projectimg" src="img/hac1.jpg" width="300" height="300" alt="hacker image" />
+                        </div>
+
+                        <div class="projectimawraper">
+                            <h4>project 2</h4>
+                            <img class="projectimg" src="img/hack2.jpg" width="300" height="300" alt="hacker image" />
+                        </div>
+
+                        <div class="projectimawraper">
+                            <h4>project 3</h4>
+                            <img class="projectimg" src="img/hack3.jpg" width="300" height="300" alt="hacker image" /> 
+                        </div>
+
+                        <div class="projectimawraper">
+                            <h4>project 4</h4>
+                            <img class="projectimg" src="img/hack4.jpg" width="300" height="300" alt="hacker image" /> 
+                        </div>
+                        
+                        
+                         
+                         
+            </div>
+                  
             
         </div>
 
 
 
-
-        <div>
+        <div class="linksandcontent">
+        <div class="links">
             <h3>Links</h3>
-            <ul>
+            <ul class="linkslist">
               <li>
-                <a href="https://github.com/<user>">Github</a>
+                <a href="https://github.com/">Github</a>
               </li>
               <li>
-                <a href="https://twitter.com/<user>">Twitter</a>
+                <a href="https://twitter.com/">Twitter</a>
               </li>
               <li>
-                <a href="https://linkedin.com/in/<user>">Linkedin</a>
+                <a href="https://linkedin.com/in/">Linkedin</a>
               </li>
+              
+                
+            
             </ul>
+            
       </div>
 
       <div>
@@ -101,7 +114,17 @@
         </form>
      </div>
      
+    </div>
+    
+    </div>
 
-
+ 
+<div class="contacts">
+    <P>
+        <a href="contact.html">contact US aluhanu430@gmail.com</a>
+    </P>
+</div>
+   
     </body>
+    
 </html>

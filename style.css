@@ -1,4 +1,116 @@
-li{
-    color:red;
+/*@media (max-width: 480px){
+
+    */
     
-}
+
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    background-color: antiquewhite;
+    max-width: 840px;
+    margin: 0 auto;
+  }  
+  
+  .intro{
+    text-align: center;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-self: center;
+    text-align: center;
+  }
+  @media screen and (max-width: 480px){
+    .about-grid {
+      grid-template-columns: 100%;
+    }
+  }
+  .projectsheading {
+    text-align: center;
+  }
+  
+  .projectgrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+ 
+  .projectimg {
+    justify-self: center;
+    padding: 4%;
+  }
+
+  @media screen and (max-width: 480px){
+    .projectgrid {
+      grid-template-columns: 100%;
+    }
+  }
+  a:hover {
+    color: green;
+    font-size: 2em;
+  }
+
+  .linksandcontent{
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
+  .links {
+    justify-self: center;
+  }
+  .linkslist{
+    list-style: none;
+    padding: 0;
+  }
+  @media screen and (max-width: 650px) {
+    .linksandcontent {
+      grid-template-columns: 100%;
+    }
+  }
+  .propict{
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+    transition: all ease-in-out .2s;
+  }
+  .propict:hover{
+    box-shadow: 0 8px 12px 0 rgba(34, 60, 80, .16);
+  }
+  .projectimg{
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+    transition: all ease-in-out .2s;
+  }
+  .projectimg:hover{
+    filter: brightness(.75);
+    box-shadow: 0 8px 12px 0 rgba(34, 60, 80, .16);
+  }
+  .projectimawraper{
+    justify-self: center;
+    padding: 4%;
+    position: relative;
+  }
+  .projectimawraper:hover > h4{
+    visibility: visible;
+  }
+  .projectimawraper > h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    visibility: hidden;
+    z-index: 2;
+    transition: al ease-in-out .2s;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .contacts {
+    text-align: center;
+  }
+  .contacts:hover{
+    box-shadow: 0 8px 12px 0 rgba(165, 21, 21, 0.16);
+  }
+/*}*/
